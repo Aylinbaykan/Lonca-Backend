@@ -7,10 +7,7 @@ const seedData = async () => {
     try {
 
         await connectDB();
-
-
         const rawData = JSON.parse(fs.readFileSync('./parent_products.json', 'utf-8'));
-
 
         const bulkOperations = rawData.map(product => {
             const transformedProduct = {
@@ -28,7 +25,6 @@ const seedData = async () => {
                 }
             };
         });
-
 
         await Product.bulkWrite(bulkOperations);
 

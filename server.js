@@ -9,8 +9,8 @@ const app = express();
 connectDB();
 
 // Middleware
-app.use(express.json()); // Yerleşik JSON parse middleware
-app.use(cors()); // CORS izinlerini açar
+app.use(express.json()); 
+app.use(cors()); 
 
 // Rotalar
 app.use('/api', require('./routes/productRoutes'));
