@@ -1,0 +1,9 @@
+# Node.js modülleri
+node_modules/
+
+# Çevresel değişkenler
+.env
+
+# Log dosyaları
+logs/
+*.log
