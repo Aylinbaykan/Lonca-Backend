@@ -54,7 +54,7 @@ Bu back-end uygulaması, front-end ile birlikte çalışmak üzere tasarlanmış
 ### 2. Projeyi Klonla
 bash
 git clone https://github.com/Aylinbaykan/Lonca-Backend.git
-cd Lonca-Backhand
+cd Lonca-Backend
 
 # MongoDB Bağlantı Sorunlarını Giderme
 
